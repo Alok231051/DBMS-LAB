@@ -44,10 +44,10 @@ DROP TABLE Course;
 -- Q9. Insert 5 records into Student table
 INSERT INTO Student (RollNo, Name, Dept, Age, MobileNo, City, Semester) VALUES
 (101, 'ALOK', 'CSE', 25, '9876543210', 'SITAMARHI', 5),
-(102, 'Ankit', 'CSE', 21, '9876543222', 'Patna', 3),
+(102, 'RAJA', 'CSE', 41, '9876543222', 'Patna', 5),
 (103, 'Neha', 'ECE', 19, '9876543333', 'Kolkata', 2),
 (104, 'Pooja', 'ME', 22, '9876543444', 'Ranchi', 4),
-(105, 'Aman', 'CSE', 20, '9876543555', 'Gaya', 3);
+(105, 'Monalisha', 'CSE', 20, '9876543555', 'Gaya', 3);
 
 -- Q10. Display all records from Student
 SELECT * FROM Student;
@@ -75,3 +75,4 @@ DELETE FROM Student WHERE RollNo = 105;
 
 -- Q18. Delete all records from Student table (table remains)
 DELETE FROM Student;
+
