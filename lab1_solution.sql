@@ -65,7 +65,7 @@ SELECT * FROM Student WHERE Age > 20;
 UPDATE Student SET Dept = 'ECE' WHERE RollNo = 101;
 
 -- Q15. Update city of student Rahul to Patna
-UPDATE Student SET City = 'Patna' WHERE Name = 'Rahul';
+UPDATE Student SET City = 'Patna' WHERE Name = 'Raja';
 
 -- Q16. Increase age of all students by 1 year
 UPDATE Student SET Age = Age + 1;
@@ -75,4 +75,5 @@ DELETE FROM Student WHERE RollNo = 105;
 
 -- Q18. Delete all records from Student table (table remains)
 DELETE FROM Student;
+
 
